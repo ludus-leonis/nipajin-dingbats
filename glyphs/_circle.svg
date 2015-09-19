@@ -49,7 +49,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -57,19 +57,15 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <g
-       id="g3230"
-       transform="matrix(1.3194445,0,0,1.3194445,2139.9458,349.48782)">
-      <path
-         id="path3155-8"
-         d="m -1242.9062,-264.875 c -198.8226,0 -360,161.17749 -360,360 0,198.82251 161.1774,360 360,360 198.8225,0 359.99995,-161.17749 359.99995,-360 0,-198.82251 -161.17745,-360 -359.99995,-360 z m 0,92.5 c 147.7361,0 267.49995,119.76383 267.49995,267.5 0,147.73617 -119.76385,267.5 -267.49995,267.5 -147.7362,0 -267.5,-119.76383 -267.5,-267.5 0,-147.73617 119.7638,-267.5 267.5,-267.5 z"
-         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.54330707;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         inkscape:connector-curvature="0" />
-      <path
-         id="path3155-8-5"
-         d="m -1242.9062,-82.375 c -98.0306,0 -177.5,79.4694591 -177.5,177.5 -1e-4,98.03054 79.4694,177.5 177.5,177.5 98.0305,0 177.5,-79.46946 177.5,-177.5 -1e-4,-98.0305409 -79.4695,-177.5 -177.5,-177.5 z m 0,90 c 48.3249,0 87.5,39.175086 87.5,87.5 0,48.32491 -39.1751,87.5 -87.5,87.5 -48.325,0 -87.5,-39.17509 -87.5,-87.5 0,-48.324914 39.175,-87.5 87.5,-87.5 z"
-         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.54330707;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         inkscape:connector-curvature="0" />
-    </g>
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.54330707000000000;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3136"
+       sodipodi:cx="-1412.4791"
+       sodipodi:cy="72.266281"
+       sodipodi:rx="228.75626"
+       sodipodi:ry="228.75626"
+       d="m -1183.7229,72.266281 a 228.75626,228.75626 0 1 1 -457.5125,0 228.75626,228.75626 0 1 1 457.5125,0 z"
+       transform="matrix(1.9671593,0,0,1.9671593,3278.5714,332.84072)" />
   </g>
 </svg>
