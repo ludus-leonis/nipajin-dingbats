@@ -4,7 +4,7 @@
 
 ## Über
 
-Dieses Repository enthält die Quellen für die SIL OFL 1.1 lizensierte Symbol-Schriftart *NIP'AJIN Dingbats*. Diese enthält eine Handvoll, im Pen'n'Paper Rollenspiel [NIP'AJIN](http://ludus-leonis.com/nipajin) Verwendung findende Symbole:
+Dieses Repository enthält die Quellen und Binärdateien für die SIL OFL 1.1 lizensierte Symbol-Schriftart *NIP'AJIN Dingbats*. Diese enthält eine Handvoll, im Pen'n'Paper Rollenspiel [NIP'AJIN](http://ludus-leonis.com/nipajin) Verwendung findende Symbole:
 
 * `a` - Zeit-danach
 * `b` - Zeit-davor
@@ -18,10 +18,10 @@ Der reguläre Schriftschnitt enthält die Symbole auf "weißem" Grund. Der fette
 
 ## Schnellanleitung
 
-Im Unterverzeichnis `glyphs` befinden sich für die einzelnen Zeichen/Buchstaben der Schriftart je eine `.svg` Datei. Aus diesen Dateien kann das Python-Script `generate.py` eine TrueType Schriftfamlie generieren. Voraussetzung dafür ist, dass [FontForge](http://fontforge.github.io) und die FontForge-Python-Bindings installiert sind. Dann können mit
+Das Verzeichnis `ttf` enthält die TrueType Schrift-Dateien. In `glyphs` befinden sich für die einzelnen Zeichen/Buchstaben der Schriftart je eine `.svg` Datei. Aus diesen Dateien kann das Python-Script `generate.py` eine TrueType Schriftfamlie generieren. Voraussetzung dafür ist, dass [FontForge](http://fontforge.github.io) und die FontForge-Python-Bindings installiert sind. Dann können mit
 
 ```
 nipajin-dingbats$ make
 ```
 
-die `.ttf` Dateien erstellt werden. Diese sind nach dem Lauf im Ordner `out` zu finden.
+die `.ttf` Dateien neu erstellt werden. Diese sind nach dem Lauf im Ordner `out` zu finden.
