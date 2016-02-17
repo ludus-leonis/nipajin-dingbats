@@ -28,7 +28,7 @@ def addIcon( font, glyph, svgFileName ):
     return;
 
 def addDie( font, glyph, svgFileName, yOffset = 0 ):
-    "add a svg as die glyph (with a box)"
+    "add a svg as glyph (with a box)"
     scale = 0.75
     glyph = font.createChar(glyph)
 
@@ -48,7 +48,7 @@ def addDie( font, glyph, svgFileName, yOffset = 0 ):
     return;
 
 def addCircle( font, glyph, svgFileName, yOffset = 0 ):
-    "add a svg as die glyph (with a box)"
+    "add a svg as glyph (with a circle)"
     scale = 0.75
     glyph = font.createChar(glyph)
 
@@ -89,6 +89,11 @@ bold.familyname = familyname
 bold.version = version
 bold.copyright = copyright
 
+# add dice
+addIcon   (regular, ord('4'), "glyphs/d10.svg")
+addDie    (bold,    ord('4'), "glyphs/d10.svg")
+addCircle (italic,  ord('4'), "glyphs/d10.svg")
+
 # add symbols
 addIcon   (regular, ord('f'), "glyphs/fist.svg")
 addDie    (bold,    ord('f'), "glyphs/fist.svg")
@@ -110,6 +115,22 @@ addIcon   (regular, ord('t'), "glyphs/target.svg")
 addDie    (bold,    ord('t'), "glyphs/target.svg")
 addCircle (italic,  ord('t'), "glyphs/target.svg")
 
+addIcon   (regular, ord('C'), "glyphs/chat.svg")
+addDie    (bold,    ord('C'), "glyphs/chat.svg")
+addCircle (italic,  ord('C'), "glyphs/chat.svg")
+
+addIcon   (regular, ord('G'), "glyphs/gear.svg")
+addDie    (bold,    ord('G'), "glyphs/gear.svg")
+addCircle (italic,  ord('G'), "glyphs/gear.svg")
+
+addIcon   (regular, ord('S'), "glyphs/suit.svg")
+addDie    (bold,    ord('S'), "glyphs/suit.svg")
+addCircle (italic,  ord('S'), "glyphs/suit.svg")
+
+addIcon   (regular, ord('T'), "glyphs/tools.svg")
+addDie    (bold,    ord('T'), "glyphs/tools.svg")
+addCircle (italic,  ord('T'), "glyphs/tools.svg", 10)
+
 # add other game mechanic symbols
 addIcon (regular, ord('b'), "glyphs/time_before.svg")
 addIcon (bold,    ord('b'), "glyphs/time_before.svg")
@@ -118,6 +139,10 @@ addIcon (italic,  ord('b'), "glyphs/time_before.svg")
 addIcon (regular, ord('a'), "glyphs/time_after.svg")
 addIcon (bold,    ord('a'), "glyphs/time_after.svg")
 addIcon (italic,  ord('a'), "glyphs/time_after.svg")
+
+addIcon (regular, ord('w'), "glyphs/weight.svg")
+addIcon (bold,    ord('w'), "glyphs/weight.svg")
+addIcon (italic,  ord('w'), "glyphs/weight.svg")
 
 # export to files
 flags = ("opentype", "dummy-dsig", "round", "apple")
