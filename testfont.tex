@@ -1,0 +1,23 @@
+\documentclass{article}
+
+\usepackage{fontspec}
+
+% This simple LaTeX file will render all NIP'AJIN-Dings glyphs into a PDF.
+
+\newfontfamily{\ffdings}[
+	Path=out/,
+	Mapping=tex-text,
+	UprightFont={NIPAJIN-Dingbats},
+	ItalicFont={NIPAJIN-Dingbats-Italic},
+	BoldFont={NIPAJIN-Dingbats-Bold}
+]{NIPAJIN-Dingbats}
+
+\begin{document}
+
+Regular: xxx {\ffdings \textup{tpGChwfSsb4aT}} XXX.
+
+Italic: xxx {\ffdings \textit{tpGhCwfSsb4aT}} XXX.
+
+Bold: xxx {\ffdings \textbf{tpGhCfwSsb4aT}} XXX.
+
+\end{document}

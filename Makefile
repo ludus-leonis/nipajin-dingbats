@@ -12,5 +12,11 @@ font: setup
 	python generate.py
 	cp OFL.txt out/OFL.txt
 
+test: font
+	xelatex \
+		-output-driver="xdvipdfmx -V 5 -z 9" \
+		-jobname=testfont \
+		-output-directory out testfont
+
 clean:
 	rm -rf out/*
