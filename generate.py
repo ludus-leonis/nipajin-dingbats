@@ -7,7 +7,7 @@ import fontforge, psMat
 fontname = "NIPAJIN-Dingbats"
 fullname = "NIP'AJIN Dingbats"
 familyname = "NIP'AJIN Dingbats"
-version = "v1.0.1"
+version = "v1.1"
 copyright = "Copyright (c) 2015, LUDUS LEONIS / Markus Leupold-Loewenthal (http://ludus-leonis.com/),\nwith Reserved Font Name \"NIP'AJIN Dingbats\".\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is available with a FAQ at: http://scripts.sil.org/OFL"
 
 def getGlyphWidth(glyph):
